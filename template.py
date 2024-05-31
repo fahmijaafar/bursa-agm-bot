@@ -33,11 +33,11 @@ def daily_stocks_to_buy():
     today = str(day) + " " + month_name.upper()
     for stock in stocks:
         if today in stock['stock_ldtb']:
-            stock_str = stock['stock_name'] + " - " + stock['stock_price'] + " - " + stock['stock_gift']
+            stock_str = stock['stock_name'] + " - " + stock['stock_price'] + " - " + stock['stock_gift'] + " - " + stock['stock_meetingsite']
             stocks_today.append(stock_str)
 
     daily_reminder_stocks = f"""Today is your last chance to buy the following stocks for AGM/EGM gifts! Dont forget to register for the event if you've already bought the stocks.\n
-    Name | Price | Gift
+    Name | Price | Gift | Register Link
     """
     if len(stocks_today) > 0:
         for stock in stocks_today:
