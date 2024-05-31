@@ -1,12 +1,12 @@
-name: "Run Monthly Reminder"
+name: "Run Daily Reminder"
 on:
   workflow_dispatch:
   schedule:
-    - cron: ""0 0 * * 1"  # This is the cron expression for once a month at 8 AM GMT+8
+    - cron: "0 0 * * 1" # This is the cron expression for once a month at 8 AM GMT+8
 jobs:
   prepare:
     runs-on: linux
-    name: Run daily reminder script bot on Telegram
+    name: Run monthly reminder script bot on Telegram
     steps:
       - name: Clone repository.
         uses: actions/checkout@v3
@@ -14,7 +14,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Run python monthly reminder
+      - name: Run python monthly reminder script
         env:
           TOKEN: ${{ secrets.TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
