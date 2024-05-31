@@ -1,21 +1,5 @@
 stocks = [
     {
-        'stock_name':'TEST1',
-        'stock_price':'1',
-        'stock_gift':'SHOPEE RM500',
-        'stock_ldtb':'31 MAY 2024',
-        "stock_meetingdt":'1 JUNE 2024',
-        "stock_meetingsite":'https://investor.boardroomlimited.com/'
-    },
-    {
-        'stock_name':'TEST2',
-        'stock_price':'1',
-        'stock_gift':'SHOPEE RM500',
-        'stock_ldtb':'1 JUNE 2024',
-        "stock_meetingdt":'2 JUNE 2024',
-        "stock_meetingsite":'https://investor.boardroomlimited.com/'
-    },
-    {
         'stock_name':'MSM',
         'stock_price':'2.65',
         'stock_gift':'KFC RM20',
