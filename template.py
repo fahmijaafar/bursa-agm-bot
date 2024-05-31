@@ -15,7 +15,7 @@ def monthly_stocks_to_buy():
             stocks_this_month.append(stock_str)
 
     monthly_reminder_stocks = f"""The following are stocks that provide good rewards which you should buy in {month_name} {year}\n
-    Name | Price | Gift | Last Day to Buy
+    Name | Price | Last Gift | Last Day to Buy
     """
 
     if len(stocks_this_month)>0:
@@ -37,7 +37,7 @@ def daily_stocks_to_buy():
             stocks_today.append(stock_str)
 
     daily_reminder_stocks = f"""Today is your last chance to buy the following stocks for AGM/EGM gifts! Dont forget to register for the event if you've already bought the stocks.\n
-    Name | Price | Gift | Register Link
+    Name | Price | Last Gift | Register Link
     """
     if len(stocks_today) > 0:
         for stock in stocks_today:
@@ -54,11 +54,11 @@ def daily_stocks_meeting():
     today = str(day) + " " + month_name.upper()
     for stock in stocks:
         if today in stock['stock_meetingdt']:
-            stock_str = stock['stock_name'] + " - " + stock['stock_meetingsite']
+            stock_str = stock['stock_name'] + " - " + stock['stock_gift'] + " - " + stock['stock_meetingsite']
             stocks_today.append(stock_str)
 
     daily_reminder_stocks_meeting = f"""Today is the AGM/EGM date for the following stock(s). Kindly prepare your suits and get online!\n
-    Name | Meeting Site
+    Name | Last Gift | Meeting Site
     """
     if len(stocks_today) > 0:
         for stock in stocks_today:
