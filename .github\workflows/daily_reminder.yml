@@ -1,0 +1,22 @@
+name: "Run Daily Reminder"
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 15 * * *"  # 7 AM GMT+8
+    - cron: "0 16 * * *"  # 8 AM GMT+8
+jobs:
+  prepare:
+    runs-on: Linux
+    name: Run daily reminder script bot on Telegram
+    steps:
+      - name: Clone repository.
+        uses: actions/checkout@v3
+      - name: Install python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run python enable script
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: python -u daily_reminder.py
