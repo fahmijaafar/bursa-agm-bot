@@ -2,11 +2,11 @@ name: "Run Daily Reminder"
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 15 * * *"  # 7 AM GMT+8
-    - cron: "0 16 * * *"  # 8 AM GMT+8
+    - cron: "0 0 * * *"  # 8 AM GMT+8
+    - cron: "0 1 * * *"  # 9 AM GMT+8
 jobs:
   prepare:
-    runs-on: Linux
+    runs-on: linux
     name: Run daily reminder script bot on Telegram
     steps:
       - name: Clone repository.

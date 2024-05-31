@@ -36,7 +36,7 @@ def daily_stocks_to_buy():
             stock_str = stock['stock_name'] + " - " + stock['stock_price'] + " - " + stock['stock_gift']
             stocks_today.append(stock_str)
 
-    daily_reminder_stocks = f"""Today is the last chance to buy the following stocks for AGM/EGM gifts! Dont forget to register for the event if you've already bought the stocks.\n
+    daily_reminder_stocks = f"""Today is your last chance to buy the following stocks for AGM/EGM gifts! Dont forget to register for the event if you've already bought the stocks.\n
     Name | Price | Gift
     """
     if len(stocks_today) > 0:

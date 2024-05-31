@@ -1,10 +1,18 @@
 stocks = [
     {
+        'stock_name':'TEST',
+        'stock_price':'1',
+        'stock_gift':'SHOPEE RM500',
+        'stock_ldtb':'1 JUNE 2024',
+        "stock_meetingdt":'2 JUNE 2024',
+        "stock_meetingsite":'https://investor.boardroomlimited.com/'
+    },
+    {
         'stock_name':'FGV',
         'stock_price':'1.37',
         'stock_gift':'SHOPEE RM50',
-        'stock_ldtb':'31 MAY 2024',
-        "stock_meetingdt":'31 MAY 2024',
+        'stock_ldtb':'11 JUNE 2024',
+        "stock_meetingdt":'20 JUNE 2024',
         "stock_meetingsite":'https://investor.boardroomlimited.com/'
     },
     {
