@@ -1,6 +1,14 @@
 stocks = [
     {
-        'stock_name':'TEST',
+        'stock_name':'TEST1',
+        'stock_price':'1',
+        'stock_gift':'SHOPEE RM500',
+        'stock_ldtb':'31 MAY 2024',
+        "stock_meetingdt":'1 JUNE 2024',
+        "stock_meetingsite":'https://investor.boardroomlimited.com/'
+    },
+    {
+        'stock_name':'TEST2',
         'stock_price':'1',
         'stock_gift':'SHOPEE RM500',
         'stock_ldtb':'1 JUNE 2024',

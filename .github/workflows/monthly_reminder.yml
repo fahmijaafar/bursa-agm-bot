@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * 1" # This is the cron expression for once a month at 8 AM GMT+8
 jobs:
   prepare:
-    runs-on: linux
+    runs-on: ubuntu-latest
     name: Run monthly reminder script bot on Telegram
     steps:
       - name: Clone repository.

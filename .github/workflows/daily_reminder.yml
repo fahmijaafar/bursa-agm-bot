@@ -6,7 +6,7 @@ on:
     - cron: "0 1 * * *"  # 9 AM GMT+8
 jobs:
   prepare:
-    runs-on: linux
+    runs-on: ubuntu-latest
     name: Run daily reminder script bot on Telegram
     steps:
       - name: Clone repository.
