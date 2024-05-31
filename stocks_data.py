@@ -16,6 +16,14 @@ stocks = [
         "stock_meetingsite":'https://investor.boardroomlimited.com/'
     },
     {
+        'stock_name':'MSM',
+        'stock_price':'2.65',
+        'stock_gift':'KFC RM20',
+        'stock_ldtb':'23 MAY 2024',
+        "stock_meetingdt":'6 JUNE 2024',
+        "stock_meetingsite":'https://investor.boardroomlimited.com/'
+    },
+    {
         'stock_name':'FGV',
         'stock_price':'1.37',
         'stock_gift':'SHOPEE RM50',
@@ -78,5 +86,13 @@ stocks = [
         'stock_ldtb':'18 JUNE 2024',
         "stock_meetingdt":'27 JUNE 2024',
         "stock_meetingsite":'https://vps.megacorp.com.my/RzyEMB'
+    },
+    {
+        'stock_name':'SAPRES',
+        'stock_price':'0.38',
+        'stock_gift':'TNG RM30',
+        'stock_ldtb':'5 JULY 2024',
+        "stock_meetingdt":'17 JULY 2024',
+        "stock_meetingsite":'https://investor.boardroomlimited.com/'
     },
 ]
