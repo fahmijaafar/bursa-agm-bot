@@ -2,7 +2,7 @@ name: "Run Monthly Reminder"
 on:
   workflow_dispatch:
   schedule:
-    cron: "0 0 * * 1"  # This is the cron expression for once a month at 8 AM GMT+8
+    - cron: ""0 0 * * 1"  # This is the cron expression for once a month at 8 AM GMT+8
 jobs:
   prepare:
     runs-on: linux
