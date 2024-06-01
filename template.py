@@ -21,7 +21,6 @@ def monthly_stocks_to_buy():
     if len(stocks_this_month)>0:
         for stock in stocks_this_month:
             monthly_reminder_stocks += stock + "\n"
-
         return monthly_reminder_stocks
     else:
         return "There are no good stocks to buy for the AGM/EGM gifts this month! Time for a good rest from all those stressful meetings :D"
@@ -30,9 +29,9 @@ def monthly_stocks_to_buy():
 def daily_stocks_to_buy():
     
     stocks_today = []
-    today = str(day) + " " + month_name.upper()
+    today = str(day) + " " + month_name.upper() + " " + str(year)
     for stock in stocks:
-        if today in stock['stock_ldtb']:
+        if today == stock['stock_ldtb']:
             stock_str = stock['stock_name'] + " - " + stock['stock_price'] + " - " + stock['stock_gift'] + " - " + stock['stock_meetingsite']
             stocks_today.append(stock_str)
 
@@ -42,7 +41,6 @@ def daily_stocks_to_buy():
     if len(stocks_today) > 0:
         for stock in stocks_today:
             daily_reminder_stocks += stock + "\n"
-    
         return(daily_reminder_stocks)
     else:
         return 0
@@ -51,9 +49,9 @@ def daily_stocks_to_buy():
 def daily_stocks_meeting():
     
     stocks_today = []
-    today = str(day) + " " + month_name.upper()
+    today = str(day) + " " + month_name.upper() + " " + str(year)
     for stock in stocks:
-        if today in stock['stock_meetingdt']:
+        if today == stock['stock_meetingdt']:
             stock_str = stock['stock_name'] + " - " + stock['stock_gift'] + " - " + stock['stock_meetingsite']
             stocks_today.append(stock_str)
 
@@ -63,7 +61,6 @@ def daily_stocks_meeting():
     if len(stocks_today) > 0:
         for stock in stocks_today:
             daily_reminder_stocks_meeting += stock + "\n"
-    
         return(daily_reminder_stocks_meeting)
     else:
         return 0
