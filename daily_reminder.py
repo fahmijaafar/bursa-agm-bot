@@ -12,14 +12,10 @@ base_url = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={CHAT_ID}&t
 now = datetime.datetime.now()
 print(now.hour)
 
-# Every day, at 7AM
-if now.hour == 0:
-    daily_reminder_1 = daily_stocks_to_buy()
-    if daily_reminder_1 != 0:
-        requests.get(base_url+daily_reminder_1)
+daily_reminder_1 = daily_stocks_to_buy()
+if daily_reminder_1 != 0:
+    requests.get(base_url+daily_reminder_1)
 
-# Every day, at 8AM
-if now.hour == 1:
-    daily_reminder_2 = daily_stocks_meeting()
-    if daily_reminder_2 != 0:
-        requests.get(base_url+daily_reminder_2)
+daily_reminder_2 = daily_stocks_meeting()
+if daily_reminder_2 != 0:
+    requests.get(base_url+daily_reminder_2)
