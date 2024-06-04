@@ -1,4 +1,4 @@
-name: "Run Monthly Reminder"
+name: "Run Monthly Reminder and Scraper"
 on:
   workflow_dispatch:
   schedule:
@@ -6,7 +6,7 @@ on:
 jobs:
   prepare:
     runs-on: ubuntu-latest
-    name: Run monthly reminder script bot on Telegram
+    name: Run monthly reminder script bot on Telegram and scraper on iSaham
     steps:
       - name: Clone repository.
         uses: actions/checkout@v3
@@ -19,3 +19,7 @@ jobs:
           TOKEN: ${{ secrets.TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python -u monthly_reminder.py
+      - name: Run python monthly scraper script
+        env:
+          TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
+        run: python -u scrape.py
