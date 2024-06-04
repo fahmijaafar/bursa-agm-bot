@@ -4,7 +4,7 @@ from github import Github
 import requests
 import os
 
-body = "stocks = "
+body = "{ 'stocks' : "
 now = datetime.now()
 year = now.year -1
 isaham_url = requests.get('https://www.isaham.my/screener/upcoming-agm')
@@ -49,7 +49,7 @@ for item in all_stock:
               }
               filtered.append(obj)
 
-body += str(filtered)
+body += str(filtered) + " }"
 
 # update GitHub with new Stock data
 
