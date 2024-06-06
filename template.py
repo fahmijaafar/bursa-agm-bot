@@ -11,14 +11,14 @@ def monthly_stocks_to_buy():
     stocks_this_month = []
     for stock in stocks:
         if month_name.upper() in stock['stock_ldtb']:
-            stock_str = stock['stock_name'] + " - " + stock['stock_price'] + " - " + stock['stock_gift'] + " - " + stock['stock_ldtb']
+            stock_str = f"| {stock['stock_name']:<10} | {stock['stock_price']:<7} | {stock['stock_ldtb']:<15} | {stock['stock_gift']:<11} |"
             stocks_this_month.append(stock_str)
 
-    monthly_reminder_stocks = f"""The following are stocks that provide good rewards which you should buy in {month_name} {year}\n
-    Name | Price | Last Gift | Last Day to Buy
-    """
+    monthly_reminder_stocks = f"""The following are stocks that provide good rewards which you should buy in {month_name} {year}\n\n"""
+    monthly_reminder_stocks += "| Name       | Price   | Last Day to Buy | Last Gift   |\n"
+    monthly_reminder_stocks += "|------------|---------|-----------------|-------------|\n"
 
-    if len(stocks_this_month)>0:
+    if len(stocks_this_month) > 0:
         for stock in stocks_this_month:
             monthly_reminder_stocks += stock + "\n"
         return monthly_reminder_stocks
