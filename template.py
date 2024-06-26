@@ -1,4 +1,5 @@
 import datetime
+from prettytable import PrettyTable
 from datetime import datetime
 from stocks_data import stocks
 month_name = datetime.now().strftime("%B")
@@ -8,22 +9,29 @@ year = datetime.now().year
 # to be called once a month(preferably 1st day of the month)
 def monthly_stocks_to_buy():
     
+    # Create a PrettyTable object
+    table = PrettyTable()
+    table.field_names = ["Name", "Price", "Last Day", "Gift"]
+
+    # Helper function to truncate text if needed
+    def truncate(text, length):
+        return text if len(text) <= length else text[:length]
+
     stocks_this_month = []
     for stock in stocks:
         if month_name.upper() in stock['stock_ldtb']:
-            stock_str = stock['stock_name'] + " - " + stock['stock_price'] + " - " + stock['stock_gift'] + " - " + stock['stock_ldtb']
-            stocks_this_month.append(stock_str)
+            # Truncate each field to fit within the character limit
+            stock_name = stock['stock_name']  # truncated to 6 characters
+            stock_price = truncate(stock['stock_price'], 5)
+            stock_ldtb = convert_date_format(stock['stock_ldtb'])  # convert date format
+            stock_gift = truncate(stock['stock_gift'], 10)  # truncated to 10 characters
+            
+            table.add_row([stock_name, stock_price, stock_ldtb, stock_gift])
 
-    monthly_reminder_stocks = f"""The following are stocks that provide good rewards which you should buy in {month_name} {year}\n
-    Name | Price | Last Gift | Last Day to Buy
-    """
-
-    if len(stocks_this_month)>0:
-        for stock in stocks_this_month:
-            monthly_reminder_stocks += stock + "\n"
-        return monthly_reminder_stocks
-    else:
-        return "There are no good stocks to buy for the AGM/EGM gifts this month! Time for a good rest from all those stressful meetings :D"
+    table_str = table.get_string()
+    monthly_reminder_stocks = f"""The following are stocks that provide good rewards which you should buy in {month_name} {year}\n\n```\n{table_str}\n```"""
+    
+    return monthly_reminder_stocks
 
 # to be called daily, for a stock which the last date to buy is today(8AM every morning?)
 def daily_stocks_to_buy():
@@ -64,3 +72,11 @@ def daily_stocks_meeting():
         return(daily_reminder_stocks_meeting)
     else:
         return 0
+
+#convert long date to short date
+def convert_date_format(date_str):
+    try:
+        date_obj = datetime.strptime(date_str, "%d %B %Y")
+        return date_obj.strftime("%d/%m")
+    except ValueError:
+        return date_str
