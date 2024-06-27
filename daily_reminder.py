@@ -10,7 +10,6 @@ base_url = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={CHAT_ID}&t
 
 
 now = datetime.datetime.now()
-print(now.hour)
 
 daily_reminder_1 = daily_stocks_to_buy()
 if daily_reminder_1 != 0:
