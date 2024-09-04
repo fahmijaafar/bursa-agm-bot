@@ -18,6 +18,8 @@ def monthly_stocks_to_buy():
         return text if len(text) <= length else text[:length]
 
     stocks_this_month = []
+    if not stocks_this_month:
+        return 0
     for stock in stocks:
         if month_name.upper() in stock['stock_ldtb']:
             # Truncate each field to fit within the character limit
