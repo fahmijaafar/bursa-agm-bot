@@ -114,7 +114,7 @@ stocks = [
     {
       "stock_name": "REDTONE",
       "stock_price": "1.02",
-      "stock_gift": "RM50 B Infinite voucher",
+      "stock_gift": "RM50 B-Infinite voucher",
       "stock_ldtb": "22 NOVEMBER 2024",
       "stock_meetingdt": "3 DECEMBER 2024",
       "stock_meetingsite": "Online portal:https://sshsb.net.my"
