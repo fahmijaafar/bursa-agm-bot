@@ -99,32 +99,32 @@ stocks = [
       "stock_name": "CHEETAH",
       "stock_price": "0.12",
       "stock_gift": "RM50 online store e-voucher (2023)",
-      "stock_ldtb": "14 Nov 2024",
-      "stock_meetingdt": "26 Nov 2024",
+      "stock_ldtb": "14 NOVEMBER 2024",
+      "stock_meetingdt": "26 NOVEMBER 2024",
       "stock_meetingsite": "Online portal:https://rebrand.ly/Cheetah27thAGM"
     },
     {
       "stock_name": "BARAKAH",
       "stock_price": "0.05",
       "stock_gift": "RM30 TNG (EGM) (2024) RM40 TNG (2023)",
-      "stock_ldtb": "20 Nov 2024",
-      "stock_meetingdt": "28 Nov 2024",
+      "stock_ldtb": "20 NOVEMBER 2024",
+      "stock_meetingdt": "28 NOVEMBER 2024",
       "stock_meetingsite": "Online portal:https://web.vote2u.my"
     },
     {
       "stock_name": "REDTONE",
       "stock_price": "1.02",
       "stock_gift": "RM50 B Infinite voucher (2023)",
-      "stock_ldtb": "22 Nov 2024",
-      "stock_meetingdt": "03 Dec 2024",
+      "stock_ldtb": "22 NOVEMBER 2024",
+      "stock_meetingdt": "3 DECEMBER 2024",
       "stock_meetingsite": "Online portal:https://sshsb.net.my"
     },
     {
       "stock_name": "BJFOOD",
       "stock_price": "0.525",
       "stock_gift": "RM100 B-Infinite voucher (2023) RM70 B-Infinite voucher (AGM)",
-      "stock_ldtb": "02 Dec 2024",
-      "stock_meetingdt": "11 Dec 2024",
+      "stock_ldtb": "2 DECEMBER 2024",
+      "stock_meetingdt": "11 DECEMBER 2024",
       "stock_meetingsite": "Online portal:https://sshsb.net.my"
     }
 ]
