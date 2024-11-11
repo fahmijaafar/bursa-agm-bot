@@ -16,10 +16,9 @@ def monthly_stocks_to_buy():
     # Helper function to truncate text if needed
     def truncate(text, length):
         return text if len(text) <= length else text[:length]
+    
+    stock_count = 0
 
-    stocks_this_month = []
-    if not stocks_this_month:
-        return 0
     for stock in stocks:
         if month_name.upper() in stock['stock_ldtb']:
             # Truncate each field to fit within the character limit
@@ -29,11 +28,16 @@ def monthly_stocks_to_buy():
             stock_gift = truncate(stock['stock_gift'], 10)  # truncated to 10 characters
             
             table.add_row([stock_name, stock_price, stock_ldtb, stock_gift])
+            stock_count =  stock_count + 1
 
     table_str = table.get_string()
-    monthly_reminder_stocks = f"""The following are stocks that provide good rewards which you should buy in {month_name} {year}\n\n```\n{table_str}\n```"""
     
-    return monthly_reminder_stocks
+    if stock_count != 0:
+        monthly_reminder_stocks = f"""The following are stocks that provide good rewards which you should buy in {month_name} {year}\n\n```\n{table_str}\n```"""
+        return monthly_reminder_stocks
+    else:
+        return 0
+    
 
 # to be called daily, for a stock which the last date to buy is today(8AM every morning?)
 def daily_stocks_to_buy():
