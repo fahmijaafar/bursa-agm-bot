@@ -25,7 +25,7 @@ def monthly_stocks_to_buy():
             stock_name = stock['stock_name']  # truncated to 6 characters
             stock_price = truncate(stock['stock_price'], 5)
             stock_ldtb = convert_date_format(stock['stock_ldtb'])  # convert date format
-            stock_gift = truncate(stock['stock_gift'], 10)  # truncated to 10 characters
+            stock_gift = truncate(stock['stock_gift'], 20)  # truncated to 10 characters
             
             table.add_row([stock_name, stock_price, stock_ldtb, stock_gift])
             stock_count =  stock_count + 1
