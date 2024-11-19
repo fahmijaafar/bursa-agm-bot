@@ -104,6 +104,14 @@ stocks = [
       "stock_meetingsite": "Online portal:https://rebrand.ly/Cheetah27thAGM"
     },
     {
+      "stock_name": "STRAITS",
+      "stock_price": "0.105",
+      "stock_gift": "RM50 cash",
+      "stock_ldtb": "15 NOVEMBER 2024",
+      "stock_meetingdt": "27 NOVEMBER 2024",
+      "stock_meetingsite": "Online portal:https://tiih.online/"
+    },
+    {
       "stock_name": "BARAKAH",
       "stock_price": "0.05",
       "stock_gift": "RM30 TNG",
