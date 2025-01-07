@@ -1,11 +1,11 @@
 stocks = [
     {
-        'stock_name':'MSM',
-        'stock_price':'2.65',
-        'stock_gift':'KFC RM20',
-        'stock_ldtb':'23 MAY 2024',
-        "stock_meetingdt":'6 JUNE 2024',
-        "stock_meetingsite":'https://investor.boardroomlimited.com/'
+      "stock_name": "ICON",
+      "stock_price": "1.01",
+      "stock_gift": "GRAB RM20",
+      "stock_ldtb": "16 JANUARY 2025",
+      "stock_meetingdt": "27 JANUARY 2025",
+      "stock_meetingsite": "https://investor.boardroomlimited.com'
     },
     {
         'stock_name':'FGV',
