@@ -8,6 +8,14 @@ stocks = [
       "stock_meetingsite": "https://investor.boardroomlimited.com"
     },
     {
+      "stock_name": "T7GLOBAL",
+      "stock_price": "0.47",
+      "stock_gift": "RM50 TNG",
+      "stock_ldtb": "28 JANUARY 2025",
+      "stock_meetingdt": "10 FEBRUARY 2025",
+      "stock_meetingsite": "Online portal:https://tiih.online"
+    },
+    {
         'stock_name':'FGV',
         'stock_price':'1.37',
         'stock_gift':'SHOPEE RM50',
