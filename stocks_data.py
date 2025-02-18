@@ -16,12 +16,12 @@ stocks = [
       "stock_meetingsite": "Online portal:https://tiih.online"
     },
     {
-        'stock_name':'FGV',
-        'stock_price':'1.37',
-        'stock_gift':'SHOPEE RM50',
-        'stock_ldtb':'11 JUNE 2024',
-        "stock_meetingdt":'20 JUNE 2024',
-        "stock_meetingsite":'https://investor.boardroomlimited.com/'
+      "stock_name": "KPJ",
+      "stock_price": "2.48",
+      "stock_gift": "RM20 KFC",
+      "stock_ldtb": "19 FEBRUARY 2025",
+      "stock_meetingdt": "28 FEBRUARY 2025",
+      "stock_meetingsite": "Online portal:https://tiih.online"
     },
     {
         'stock_name':'CGB',
