@@ -27,8 +27,8 @@ stocks = [
       "stock_name": "BURSA",
       "stock_price": "7.9",
       "stock_gift": "RM40 TNG",
-      "stock_ldtb": "17 MAR 2025",
-      "stock_meetingdt": "27 MAR 2025",
+      "stock_ldtb": "17 MARCH 2025",
+      "stock_meetingdt": "27 MARCH 2025",
       "stock_meetingsite": "Online portal:https://tiih.online"
     },
     {
