@@ -30,7 +30,7 @@ stocks = [
       "stock_ldtb": "17 MAR 2025",
       "stock_meetingdt": "27 MAR 2025",
       "stock_meetingsite": "Online portal:https://tiih.online"
-    }
+    },
     {
         'stock_name':'WIDAD',
         'stock_price':'0.065',
