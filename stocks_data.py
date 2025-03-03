@@ -24,13 +24,13 @@ stocks = [
       "stock_meetingsite": "Online portal:https://tiih.online"
     },
     {
-        'stock_name':'CGB',
-        'stock_price':'0.83',
-        'stock_gift':'TNG RM20',
-        'stock_ldtb':'13 JUNE 2024',
-        "stock_meetingdt":'25 JUNE 2024',
-        "stock_meetingsite":'https://vps.megacorp.com.my/C1k3db'
-    },
+      "stock_name": "BURSA",
+      "stock_price": "7.9",
+      "stock_gift": "RM40 TNG",
+      "stock_ldtb": "17 MAR 2025",
+      "stock_meetingdt": "27 MAR 2025",
+      "stock_meetingsite": "Online portal:https://tiih.online"
+    }
     {
         'stock_name':'WIDAD',
         'stock_price':'0.065',
