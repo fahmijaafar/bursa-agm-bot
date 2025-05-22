@@ -32,21 +32,21 @@ stocks = [
       "stock_meetingsite": "Online portal:https://tiih.online"
     },
     {
-        'stock_name':'WIDAD',
-        'stock_price':'0.065',
-        'stock_gift':'TNG RM20',
-        'stock_ldtb':'13 JUNE 2024',
-        "stock_meetingdt":'27 JUNE 2024',
-        "stock_meetingsite":'https://vps.megacorp.com.my/7Pi8sa'
-    },
-    {
-        'stock_name':'OVH',
-        'stock_price':'0.19',
-        'stock_gift':'SHELL RM25',
-        'stock_ldtb':'14 JUNE 2024',
-        "stock_meetingdt":'26 JUNE 2024',
-        "stock_meetingsite":'https://web.vote2u.my/'
-    },
+    "stock_name": "DLADY",
+    "stock_price": "29.3",
+    "stock_gift": "RM30 Lotus's voucher",
+    "stock_ldtb": "14 May 2025",
+    "stock_meetingdt": "23 May 2025",
+    "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
+  },
+  {
+    "stock_name": "FGV",
+    "stock_price": "1.33",
+    "stock_gift": "RM50 FGV products",
+    "stock_ldtb": "17 Jun 2025",
+    "stock_meetingdt": "26 Jun 2025",
+    "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
+  },
     {
         'stock_name':'DATAPREP',
         'stock_price':'0.16',
