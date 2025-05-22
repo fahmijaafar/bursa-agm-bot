@@ -35,16 +35,16 @@ stocks = [
     "stock_name": "DLADY",
     "stock_price": "29.3",
     "stock_gift": "RM30 Lotus's voucher",
-    "stock_ldtb": "14 May 2025",
-    "stock_meetingdt": "23 May 2025",
+    "stock_ldtb": "14 MAY 2025",
+    "stock_meetingdt": "23 MAY 2025",
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
   {
     "stock_name": "FGV",
     "stock_price": "1.33",
     "stock_gift": "RM50 FGV products",
-    "stock_ldtb": "17 Jun 2025",
-    "stock_meetingdt": "26 Jun 2025",
+    "stock_ldtb": "17 JUNE 2025",
+    "stock_meetingdt": "26 JUNE 2025",
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
     {
