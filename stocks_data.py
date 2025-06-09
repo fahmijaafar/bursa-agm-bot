@@ -48,38 +48,6 @@ stocks = [
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
     {
-        'stock_name':'DATAPREP',
-        'stock_price':'0.16',
-        'stock_gift':'TNG RM20',
-        'stock_ldtb':'18 JUNE 2024',
-        "stock_meetingdt":'27 JUNE 2024',
-        "stock_meetingsite":'OWNSITE - refer email'
-    },
-    {
-        'stock_name':'T7GLOBAL',
-        'stock_price':'0.515',
-        'stock_gift':'TNG RM30',
-        'stock_ldtb':'18 JUNE 2024',
-        "stock_meetingdt":'27 JUNE 2024',
-        "stock_meetingsite":'https://tiih.online/'
-    },
-    {
-        'stock_name':'JAKS',
-        'stock_price':'0.13',
-        'stock_gift':'TNG RM30',
-        'stock_ldtb':'18 JUNE 2024',
-        "stock_meetingdt":'27 JUNE 2024',
-        "stock_meetingsite":'https://tiih.online/'
-    },
-    {
-        'stock_name':'MAXIM',
-        'stock_price':'0.41',
-        'stock_gift':'TNG RM50',
-        'stock_ldtb':'18 JUNE 2024',
-        "stock_meetingdt":'27 JUNE 2024',
-        "stock_meetingsite":'https://vps.megacorp.com.my/RzyEMB'
-    },
-    {
         'stock_name':'SAPRES',
         'stock_price':'0.38',
         'stock_gift':'TNG RM30',
