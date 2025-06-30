@@ -1,1 +1,1 @@
-{ 'stocks' : [{'stock_name': 'FGV', 'stock_price': '1.3', 'stock_gift': 'RM50 FGV products (2024) RM50 FGV products (2023) RM50 e-voucher (2022) RM50 Shopee KedaiFGV voucher (2021) RM30 Tesco FGV products & FGV products (2019) RM30 KFC voucher & Saji products (2017) RM30 KFC voucher & AEON Big gift card (2016)', 'stock_ldtb': '17 Jun 2025', 'stock_meetingdt': '26 Jun 2025', 'stock_meetingsite': 'Online portal:https://investor.boardroomlimited.com'}] }
+{ 'stocks' : [] }
