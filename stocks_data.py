@@ -56,22 +56,6 @@ stocks = [
         "stock_meetingsite":'https://investor.boardroomlimited.com/'
     },
     {
-        "stock_name": "IQGROUP",
-        "stock_price": "0.765",
-        "stock_gift": "RM25 TNG",
-        "stock_ldtb": "21 AUGUST 2024",
-        "stock_meetingdt": "29 AUGUST 2024",
-        "stock_meetingsite": "Online portal:https://tiih.online"
-    },
-    {
-        "stock_name": "AJI",
-        "stock_price": "15.0",
-        "stock_gift": "RM40 Ajinomoto products",
-        "stock_ldtb": "21 AUGUST 2024",
-        "stock_meetingdt": "29 AUGUST 2024",
-        "stock_meetingsite": "Online portal:https://sshsb.net.my"
-    },
-    {
       "stock_name": "CHEETAH",
       "stock_price": "0.12",
       "stock_gift": "RM50 eVoucher",
