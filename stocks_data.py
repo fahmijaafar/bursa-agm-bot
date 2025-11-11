@@ -48,11 +48,11 @@ stocks = [
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
     {
-        'stock_name':'SAPRES',
-        'stock_price':'0.38',
-        'stock_gift':'TNG RM30',
-        'stock_ldtb':'5 JULY 2024',
-        "stock_meetingdt":'17 JULY 2024',
-        "stock_meetingsite":'https://investor.boardroomlimited.com/'
-    }
+      "stock_name": "BARAKAH",
+      "stock_price": "0.05",
+      "stock_gift": "RM40 TNG",
+      "stock_ldtb": "30 MAY 2025",
+      "stock_meetingdt": "3 DECEMBER 2025",
+      "stock_meetingsite": "Online portal:https://web.vote2u.my"
+    },
 ]
