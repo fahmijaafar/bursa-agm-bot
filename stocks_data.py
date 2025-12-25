@@ -1,13 +1,5 @@
 stocks = [
     {
-      "stock_name": "ICON",
-      "stock_price": "1.01",
-      "stock_gift": "GRAB RM20",
-      "stock_ldtb": "16 JANUARY 2025",
-      "stock_meetingdt": "27 JANUARY 2025",
-      "stock_meetingsite": "https://investor.boardroomlimited.com"
-    },
-    {
       "stock_name": "T7GLOBAL",
       "stock_price": "0.47",
       "stock_gift": "RM50 TNG",
