@@ -19,16 +19,24 @@ stocks = [
       "stock_name": "BURSA",
       "stock_price": "7.9",
       "stock_gift": "RM40 TNG",
-      "stock_ldtb": "17 MARCH 2025",
-      "stock_meetingdt": "27 MARCH 2025",
-      "stock_meetingsite": "Online portal:https://tiih.online"
+      "stock_ldtb": "17 MARCH 2026",
+      "stock_meetingdt": "31 MARCH 2026",
+      "stock_meetingsite": "Online portal:https://srmy.vistra.com"
     },
     {
-    "stock_name": "DLADY",
-    "stock_price": "29.3",
-    "stock_gift": "RM30 Lotus's voucher",
-    "stock_ldtb": "14 MAY 2025",
-    "stock_meetingdt": "23 MAY 2025",
+    "stock_name": "PCHEM",
+    "stock_price": "6.01",
+    "stock_gift": "RM100 Setel voucher",
+    "stock_ldtb": "13 APRIL 2026",
+    "stock_meetingdt": "22 APRIL 2026",
+    "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
+  },
+    {
+    "stock_name": "PETGAS",
+    "stock_price": "18.42",
+    "stock_gift": "RM100 Setel voucher",
+    "stock_ldtb": "20 APRIL 2026",
+    "stock_meetingdt": "29 APRIL 2026",
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
   {
