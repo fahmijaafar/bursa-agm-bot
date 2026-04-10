@@ -40,11 +40,11 @@ stocks = [
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
   {
-    "stock_name": "FGV",
-    "stock_price": "1.33",
-    "stock_gift": "RM50 FGV products",
-    "stock_ldtb": "17 JUNE 2025",
-    "stock_meetingdt": "26 JUNE 2025",
+    "stock_name": "MHB",
+    "stock_price": "0.365",
+    "stock_gift": "RM100 Setel Voucher",
+    "stock_ldtb": "29 APRIL 2026",
+    "stock_meetingdt": "11 MAY 2026",
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
     {
