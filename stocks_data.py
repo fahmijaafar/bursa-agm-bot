@@ -32,6 +32,14 @@ stocks = [
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
     {
+    "stock_name": "PETDAG",
+    "stock_price": "20.64",
+    "stock_gift": "RM100 Setel voucher",
+    "stock_ldtb": "16 APRIL 2026",
+    "stock_meetingdt": "27 APRIL 2026",
+    "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
+  },
+    {
     "stock_name": "PETGAS",
     "stock_price": "18.42",
     "stock_gift": "RM100 Setel voucher",
@@ -45,6 +53,14 @@ stocks = [
     "stock_gift": "RM100 Setel Voucher",
     "stock_ldtb": "29 APRIL 2026",
     "stock_meetingdt": "11 MAY 2026",
+    "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
+  },
+    {
+    "stock_name": "MISC",
+    "stock_price": "8.16",
+    "stock_gift": "RM150 Setel Voucher",
+    "stock_ldtb": "4 MAY 2026",
+    "stock_meetingdt": "13 MAY 2026",
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
     {
