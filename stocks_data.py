@@ -64,6 +64,30 @@ stocks = [
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
     {
+    "stock_name": "AEON",
+    "stock_price": "1.17",
+    "stock_gift": "RM50 Aeon Voucher",
+    "stock_ldtb": "11 MAY 2026",
+    "stock_meetingdt": "20 MAY 2026",
+    "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
+  },
+    {
+    "stock_name": "TENAGA",
+    "stock_price": "14.56",
+    "stock_gift": "RM50 AEON Voucher",
+    "stock_ldtb": "11 MAY 2026",
+    "stock_meetingdt": "21 MAY 2026",
+    "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
+  },
+    {
+    "stock_name": "SIMEPROP",
+    "stock_price": "1.42",
+    "stock_gift": "RM40 AEON Voucher",
+    "stock_ldtb": "26 MAY 2026",
+    "stock_meetingdt": "10 JUNE 2026",
+    "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
+  },
+    {
       "stock_name": "BARAKAH",
       "stock_price": "0.05",
       "stock_gift": "RM40 TNG",
