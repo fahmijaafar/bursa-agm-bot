@@ -87,12 +87,4 @@ stocks = [
     "stock_meetingdt": "10 JUNE 2026",
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
-    {
-      "stock_name": "BARAKAH",
-      "stock_price": "0.05",
-      "stock_gift": "RM40 TNG",
-      "stock_ldtb": "30 MAY 2025",
-      "stock_meetingdt": "3 DECEMBER 2025",
-      "stock_meetingsite": "Online portal:https://web.vote2u.my"
-    },
 ]
