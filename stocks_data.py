@@ -79,12 +79,20 @@ stocks = [
     "stock_meetingdt": "21 MAY 2026",
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
-    {
+  {
     "stock_name": "SIMEPROP",
     "stock_price": "1.42",
     "stock_gift": "RM40 AEON Voucher",
     "stock_ldtb": "26 MAY 2026",
     "stock_meetingdt": "10 JUNE 2026",
+    "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
+  },
+  {
+    "stock_name": "FGV",
+    "stock_price": "-",
+    "stock_gift": "FGV GROCERIES RM50",
+    "stock_ldtb": "18 JUNE 2026",
+    "stock_meetingdt": "30 JUNE 2026",
     "stock_meetingsite": "Online portal:https://investor.boardroomlimited.com"
   },
 ]
